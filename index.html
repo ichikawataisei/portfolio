@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ichikawa Taisei</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <!--ヘッダー-->
+  <header>
+    <div class="container">
+      <div class="header">
+        <h1>Taisei Ichikawa</h1>
+        <ul id="spnavi">
+          <li id="drop_menu_icon">
+            <i class="fas fa-bars"></i>
+          </li>
+        </ul>
+        <div class="header_menu">
+          <nav>
+            <ul id="drop_menu_hidden">
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#works">Works</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <h2>shining future</h2>
+    </div>
+  </header>
+  <!--ヘッダー終わり-->
+
+  <main>
+
+    <!--About-->
+    <div class="container">
+      <section id="about">
+        <h2 class="title">About</h2>
+        <div class="about_area">
+          <div class="about_area_img">
+            <img src="img/profile.JPG" alt="プロフィール画像">
+          </div>
+          <div class="about_area_description">
+            <div class="about_area_text">
+              プログラミング・野球を愛しています。現在大学3年web
+              制作をしています。何事にも「挑戦しやりきる」精神で向きあうをモットーにしております！お客様の要望にこたえ、こちらからも積極的に提案させていただき信頼を得てパートナーとして、一緒に特別なwebサイトを作りあげられるように対応いたします！
+            </div>
+            <div class="about_area_icon">
+              <a href="https://twitter.com/PMtGjS8Dbr3q6cg" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--About終わり-->
+    
+
+    <!--Service-->
+    <section id="service">
+      <div class="container list1">
+        <h2 class="title">Service</h2>
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <h3>LP・ホームページ作成</h3>
+            <div class="service_icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <p class="text">
+              HTML CSS Javascript jQuery 
+              のプログラミング、コーディングが可能です。保守管理をしやすいように見やすい
+              コーディングを心がけております。
+            </p>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <h3>WordPress対応</h3>
+            <div class="service_icon">
+              <i class="fab fa-wordpress"></i>
+            </div>
+            <p class="text">
+              WordPress PHPを使ってのLP・ホームページ制作も行っております。記事をこまめに更新したいようなサイトにオススメです。
+            </p>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <h3>保守管理</h3>
+            <div class="service_icon">
+              <i class="fas fa-business-time"></i>
+            </div>
+            <p class="text">
+              サイトを作って終わりではなくその後のサイトの保守管理も行っています。要望がありましたら広告運用・分析・改善まで務めさせていただきます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--Service終わり-->
+    
+    <!--Works-->
+    <div class="container">
+      <section id="works">
+        <h2 class="title">Works</h2>
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <img class="modal_open1" src="img/works/airbnb1.jpg" alt="">
+            <p class="works_text">Airbnbの模写サイト</p>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img class="modal_open2" src="img/works/isara1.jpg" alt="">
+            <p class="works_text">ISARAの模写サイト</p>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img class="modal_open3" src="img/works/jin1.jpg" alt="">
+            <p class="works_text">WordPressテーマJINの模写サイト</p>
+          </div>
+        </div>
+        <!--Works終わり-->
+
+        <!--Worksモーダル-->
+        <div class="modal1">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="modal_img1" src="img/works/airbnb2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mask"></div>
+        <div class="modal_window"></div>
+
+        <div class="modal2">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="modal_img2" src="img/works/isara2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mask"></div>
+        <div class="modal_window"></div>
+
+        <div class="modal3">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="modal_img3" src="img/works/jin2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mask"></div>
+        <div class="modal_window"></div>
+      </section>
+    </div>
+    <!--Worksモーダル終わり-->
+
+    <!--Contact-->
+    <div class="container">
+      <section id="contact">
+        <h2 class="title">Contact</h2>
+          <div class="form">
+            <!-- class, action, methodを変更しないでください -->
+            <form class="formrun" action="https://form.run/api/v1/r/5p0drhyj3artlj6rfke7nlq5" method="post">
+              <!-- ↓自由に要素を追加・編集することができます -->
+              <div class="form_content">
+                <label>お名前</label>
+                <input name="お名前" type="text" placeholder="山田 タロウ">
+              </div>
+
+              <div class="form_content">
+                <label>メールアドレス [必須]</label>
+                <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required placeholder="sample@sample.com">
+                <div data-formrun-show-if-error="メールアドレス" >メールアドレスを正しく入力してください</div>
+              </div>
+
+              <div class="form_content">
+                <label>お問い合わせ [必須]</label>
+                <textarea rows=10 name="お問い合わせ" data-formrun-required placeholder="お問い合わせ内容をご記入ください。"></textarea>
+                <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+              </div>
+
+              <!-- ボット投稿をブロックするためのタグ -->
+              <div class="_formrun_gotcha">
+                <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+              </div>
+
+              <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+            </form>
+          </div>
+      </section>
+    </div>
+    <!--Contact終わり-->
+  </main>
+  
+  <!--footer-->
+  <footer>
+    &copy; 2020 Ichikawa Taisei
+  </footer>
+  <!--footer終わり-->
+  
+</body>
+</html>
+
+
+ 
